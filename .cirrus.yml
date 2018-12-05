@@ -3,5 +3,5 @@ freebsd_instance:
 
 task:
   install_script: pkg install -y gmake
-  script: gmake all
+  script: env; unset OS; gmake all
 
