@@ -5,5 +5,5 @@ task:
   env:
     OS: FreeBSD
   install_script: pkg install -y gmake
-  script: env; gmake all
+  script: mount; env; gmake all
 
